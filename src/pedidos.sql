@@ -85,3 +85,39 @@ select "CPF: " || cpf || "RG: " || rg from client;
 -- Selecionar com limite
 
 select * from client limit 10;
+
+-- Selecionar com condicional
+
+select birth_date as "Data de Nascimento" from client where birth_date > '1998-01-01';
+
+select name from client where name like 'L%';
+
+select name, birth_date from client where birth_date between '1990-01-01' and '2000-01-01';
+
+select name, rg from client where rg is null;
+
+select name from client order by name asc;
+
+select name from client order by name desc;
+
+-- Exercício
+
+select name, gender, profession from client order by name desc;
+
+select name from client where name like '%r%';
+
+select name from client where name like 'C%';
+
+select name from client where name like '%a';
+
+select neighborhood from client where neighborhood like 'Centro';
+
+select complement from client where complement like 'A%';
+
+select * from client where gender like 'F';
+
+select * from client where cpf is null;
+
+select name, profession from client order by profession asc;
+
+select * from client where nationality like 'Brasileir%';
