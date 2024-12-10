@@ -7,6 +7,16 @@ Curso Completo da Udemy sobre PostgreSQL.
 # Sumário
 
 * [Introdução](#introdução)
+* [Criação de Tabelas](/notes/craete_table.md#criação-de-tabelas)
+    *[Estrutura Básica do Comando CREATE TABLE](/notes/craete_table.md#estrutura-básica-do-comando-create-table)
+    *[Principais Tipos de Dados no PostgreSQL](/notes/craete_table.md#principais-tipos-de-dados-no-postgresql)
+    *[Restrições (Constraints)](/notes/craete_table.md#restrições-constraints)
+    *[Herança em Tabelas](/notes/craete_table.md#herança-em-tabelas)
+    *[Indexação em Tabelas](/notes/craete_table.md#indexação-em-tabelas)
+    *[Melhorias com Extensões](/notes/craete_table.md#melhorias-com-extensões)
+    *[Tabelas Temporárias](/notes/craete_table.md#tabelas-temporárias)
+    *[Scripts de Criação com Relacionamento](/notes/craete_table.md#scripts-de-criação-com-relacionamento)
+    *[Considerações de Melhor Prática](/notes/craete_table.md#considerações-de-melhor-prática)
 * [Referências](#referências)
 
 ## Introdução
@@ -19,5 +29,5 @@ Com uma comunidade ativa e um modelo de licenciamento permissivo (licença Postg
 
 ## Referências
 
-* [Udemy]()
+* [Udemy](https://udemy.com/)
 * [Chat-GPT](https://chatgpt.com/)
