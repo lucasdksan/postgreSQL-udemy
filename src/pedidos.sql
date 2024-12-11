@@ -127,3 +127,13 @@ select * from client where nationality like 'Brasileir%';
 update client set name = 'Lucas da Silva' where idclient = 1;
 
 delete from client where idclient = 22;
+
+-- Fazer alterações nas colunas
+
+alter table client rename column profession to idprofession;
+
+alter table client drop idprofession;
+ALTER TABLE client ADD COLUMN idprofession INT;
+ALTER TABLE client
+ADD CONSTRAINT fk_cln_idprofession
+FOREIGN KEY (idprofession) REFERENCES profession (idprofession);
