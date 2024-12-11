@@ -121,3 +121,9 @@ select * from client where cpf is null;
 select name, profession from client order by profession asc;
 
 select * from client where nationality like 'Brasileir%';
+
+-- Update e Delete
+
+update client set name = 'Lucas da Silva' where idclient = 1;
+
+delete from client where idclient = 22;
