@@ -47,6 +47,17 @@ Curso Completo da Udemy sobre PostgreSQL.
     * [Cascade Delete](/notes/up-delete.md#cascade-delete)
     * [Comparação: UPDATE vs DELETE](/notes/up-delete.md#comparação-update-vs-delete)
     * [Considerações de Desempenho](/notes/up-delete.md#considerações-de-desempenho)
+* [Relacionamento de Tableas](/notes/relaship.md)
+    * [Relacionamento 1:N](/notes/relaship.md#relacionamento-1n)
+    * [Relacionamento N:N (Muitos para Muitos)](/notes/relaship.md#relacionamento-nn-muitos-para-muitos)
+    * [Joins](/notes/relaship.md#joins)
+        * [Inner Join](/notes/relaship.md#inner-join)
+        * [Left Join](/notes/relaship.md#left-join)
+        * [Right Join](/notes/relaship.md#right-join)
+        * [Full Join](/notes/relaship.md#full-join)
+        * [Cross Join](/notes/relaship.md#cross-join)
+        * [Self Join](/notes/relaship.md#self-join)
+        * [Natural Join](/notes/relaship.md#natural-join)
 * [Referências](#referências)
 
 ## Introdução
